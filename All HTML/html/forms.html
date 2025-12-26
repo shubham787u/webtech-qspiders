@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <fieldset>
+            <legend> Employee Application Form</legend>
+        <form >
+            <label for="username">Username :</label>
+            <input type="text" id="username" placeholder="Enter Username" name="username" required ></input>
+            <sup style="color: red;">*</sup>
+
+
+            <br /><br />
+            <label for="gender">Gender :</label>
+            <label for="male" >male</label>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female"/>
+
+            <br><br>
+
+            <label for="email">Eamil :</label>
+            <input type="email" placeholder="Enter Email" id="email" name="email" required ></input>
+
+
+            <br>
+            <label for="country">Country :</label>
+            < name="country" id="country">
+                <option >Select country</option>
+            </select>
+
+            <br><br>
+            <label for="course">Course :</label>
+            <input type="text" name="course" id="course" list="courseList">
+            <datalist id="courseList">
+                <option value="java Fullstack">Java Fullstack</option>
+                <option value="Python Fullstack">Python Fullstack</option>
+                <option value="Mern Fullstack"> Mern Fullstack</option>
+            </datalist>
+
+            <br><br>
+            <label for="resume">Resume :</label>
+            <input type="file" name="resume" id="resume" multiple >
+
+            <br><br>
+            <button> Submit</button>
+
+
+        </form>
+        </fieldset>
+</body>
+</html>

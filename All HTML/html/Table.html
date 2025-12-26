@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Table -->
+     <!-- <border="2" cellpadding="10" cellspace=""> -->
+     <!-- row1 -->
+      <table border="2" cellpadding="10" cellspacing="5">
+        <thead>
+            <tr>
+                <th colspan="3">My Table</th>
+            </tr>
+        </thead>
+        <tbody>
+      <tr>
+        <td colspan="2" align="center">A </td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+
+      <!-- row2 -->
+      <tr>
+        <td>B </td>
+        <td>B</td>
+        <td>B</td>
+      </tr>
+
+      <!-- row3 -->
+      <tr>
+        <td>A </td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+      </table>
+
+
+      <hr>
+
+      <!-- Example -->
+       <table border="2" cellpadding="10" cellspacing="5" >
+        <!-- row1 -->
+        <tr>
+            <td rowspan="2">Heading</td>
+            <td>Student</td>
+            <td colspan="4" align="center">Details</td>
+            
+            
+            
+
+        </tr>
+        <!-- row2 -->
+         <tr>
+            <td>Id</td>
+            <!-- <td></td> -->
+            <td>Name</td>
+            <td>Department</td>
+            <td>Roll Number</td>
+            
+
+        </tr>
+        <!-- row3 -->
+         <tr>
+            <td rowspan="4">Student List</td>
+            
+            <td >1</td>
+            <td>Victor</td>
+            <td>Computer Science</td>
+            <td>12345</td>
+            
+
+        </tr>
+        <!-- row4 -->
+         <tr>
+            <td>2</td>
+            <td>Williams</td>
+            <td>Electronics</td>
+            <td>23456</td>
+            
+
+        </tr>
+        <!-- row5 -->
+         <tr>
+            <!-- <td></td> -->
+            <td>3</td>
+            <td>Harry</td>
+            <td>Electrical</td>
+            <td>34567</td>
+            
+
+        </tr>
+        <!-- row6 -->
+         <tr>
+            <!-- <td></td> -->
+            <td>4</td>
+            <td>Rick</td>
+            <td>Civil</td>
+            <td>45678</td>
+            
+
+         </tr>
+
+       </table>
+
+       <br/><br/>
+
+
+    <hr>
+
+       <table border="2" cellpadding="8">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th rowspan="3">Seminor</th>
+            </tr>
+
+            <tr>
+                <th colspan="3">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">Tuesday</td>
+                <td>8:00</td>
+                <td>11:00</td>
+                <td rowspan="2" style="padding: 16px;">Xpath</td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>2:00</td>
+            </tr>
+
+        </tbody>
+       </table>
+
+
+
+       <br><br>
+       <hr>
+
+
+       <table border="3" cellpadding="8" cellspacing="5" >
+        <!-- row1 -->
+         <thead></thead>
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="5" align="center">Seminor</th>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+        <!-- row2 -->
+         <tr>
+            <th colspan="2" align="center">Schedule</th>
+            <th rowspan="2" colspan="3" align="center">Topic</th>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+        <!-- row3 -->
+         <tr>
+            <th>Begin</th>
+            <th>End</th>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+        </thead>
+        <!-- row4 -->
+         <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" style="background-color: yellow;">8:00 a.m.</td>
+            <td rowspan="2" style="background-color: blueviolet;">5:00 p.m.</td>
+            <td colspan="3">Introduction to XML</td>
+        </tr>
+        <!-- row5 -->
+           <tr>
+            <td colspan="3">Validity: DTD and Relex NG</td>
+            <!-- <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <!-- row6 -->
+           <tr>
+            <td rowspan="3">Tuesday</td>
+            <td style="background-color: yellow;">8:00 a.m.</td>
+            <td style="background-color: yellow;">11:00 a.m.</td>
+            <td colspan="3" align="center">XPath</td>
+        </tr>
+
+           <!-- row7 -->
+         <tr>
+            <td style="background-color: yellow;">11:00 a.m.</td>
+            <td style="background-color: aqua;">2:00 p.m.</td>
+            <td  rowspan="2" colspan="3">XSL Transformations</td>
+            <!-- <td></td> -->
+        </tr>
+
+           <!-- row8 -->
+         <tr>
+            <td style="background-color: aqua;">2:00 p.m.</td>
+            <td style="background-color: blueviolet;">5:00 a.m.</td>
+            <!-- <td></td>
+            <td></td> -->
+        </tr>
+
+           <!-- row9 -->
+         <tr>
+            <td>Wednesday</td>
+            <td style="background-color: yellow;">8:00 a.m.</td>
+            <td style="background-color: aqua;">12:00 p.m.</td>
+            <td colspan="3">XSL Formating Objects</td>
+        </tr>
+       </table>
+    
+       <hr>
+
+       <!-- semantic tag -->
+
+       <header> 
+        I am Header
+       </header>
+
+       <details>
+        <summary> Open This</summary>
+        <li> I am details</li>
+       </details>
+
+       <aside> I am Aside</aside>
+       <main> I am Main</main>
+       <nav> I am Nav</nav>
+       <section> I am section</section>
+       <table> I am Table</table>
+       <article> I am Article</article>
+       <form> I am form</form>
+       <figure>I am Figure</figure>
+       <figcaption>I am figCaption</figcaption>
+       <footer> I am footer</footer>
+
+       <!-- Audio and Video -->
+        <video  src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+         controls autoplay muted loop height="300px"  >Play
+        </video>
+
+        <Hr>
+        <br>
+        <video src="" controls height="300px"></video>
+        <audio src="" controls></audio>
+        
+        <hr>
+        
+        <fieldset>
+            <legend> Employee Application Form</legend>
+        <form >
+            <label for="username">Username :</label>
+            <input type="text" id="username" placeholder="Enter Username" name="username" required ></input>
+            <sup style="color: red;">*</sup>
+
+
+            <br /><br />
+            <label for="gender">Gender :</label>
+            <label for="male" >male</label>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female"/>
+
+            <br><br>
+
+            <label for="email">Eamil :</label>
+            <input type="email" placeholder="Enter Email" id="email" name="email" required ></input>
+            <br><br>
+            <button> Submit</button>
+
+
+        </form>
+        </fieldset>
+</body>
+</html>
