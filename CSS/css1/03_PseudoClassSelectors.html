@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseodoClass</title>
+
+    <style>
+        body{
+            user-select: none;
+        }
+        a:link{
+            color: orange;
+        }
+        a:visited {
+            color: aqua;
+        }
+        a:active {
+            color: black;
+        }
+        h1 {
+            transition: 1s;
+            background-color: black;
+            color: white;
+            width: 800px;
+        }
+        h1:hover {
+            background-color: yellow;
+            color: black;
+        }
+        h1:active {
+            background-color: pink;
+            color: red;
+            width: 600px;
+        }
+        ul > li:first-child{
+            background-color: yellow;
+        }
+        
+        ul > li:last-child {
+            background-color: red;
+        }
+        
+        ul > li:nth-child(3){
+            background-color: greenyellow;
+        }
+        section > div:first-of-type{
+            background-color:aqua;
+        }
+         section > div:last-of-type{
+            background-color: greenyellow;
+        }
+          section > div:nth-of-type(3){
+            background-color: red;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <h1>Learn pseudo Class Selectors</h1>
+    <a href="https://www.flipcart.com">Flipcart</a>
+
+    <a href="https://www.ajio.com">Ajio</a>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>REACT</li>
+        <li>NODE</li>
+    </ul>
+    <section>
+        <aside>aside 1</aside>
+        <div>div 1</div>
+        <aside>aside 2</aside>
+        <div>div 2</div>
+        <aside>aside 3</aside>
+        <div>div 3</div>
+        <aside>aside 4</aside>
+        <div>div 4</div>
+        <aside>aside 5</aside>
+    </section>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: red;
+        }
+        /* used to target single element uniquely */
+        #box1{
+            background-color: orange;
+        }
+        h2{
+            background-color:lightblue ;
+            font-family: fantasy;
+        }
+        .content{
+            background-color: lightpink;
+            color: red;
+        }
+        .divcontent{
+            background-color: yellow;
+        }
+        #navbar , .sidebar , footer{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1> Learn Simple Sectors</h1>
+    </center>
+
+    <div id="box1"> Target me using ID selector</div>
+
+    <h2> Target me using Element Selector</h2>
+    <h2> Target me using Element Selector</h2>
+    <h2> Target me using Element Selector</h2>
+
+    <h3 class="content">target me using Element Selector</h3>
+    <h3 class="content">target me using Element Selector</h3>
+
+    <div class="content divcontent">target me using Element Selecto</div>
+    <div class="content">target me using Element Selecto</div>
+
+    <section class="content">target me using Element Selecto</section>
+
+    <article class="content">target me using Element Selecto</article>
+
+    <nav id="navbar">Target me using group selector</nav>
+    <aside class="sidebar">Target me using group selector</aside>
+    <footer>Target me using group selector</footer>
+</body>
+</html>

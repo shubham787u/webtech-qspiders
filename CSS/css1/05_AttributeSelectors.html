@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div[name]{
+            background-color: red;
+        }
+        div[class~="text"]{
+            background-color: greenyellow;
+        }
+        div[id|="card"]{
+            background-color: blueviolet;
+        }
+        div[name^="w"]{
+            background-color: blue;
+        }
+        div[name$="x"]{
+            background-color: lightblue;
+        }
+        div[name*="oo"]{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learn Attribute Selectors</h1>
+    <div name="box1">i am div </div>
+    <div name="box2">i am div</div>
+    <div class="content text">i am div</div>
+
+    <div id="card-container"> i am div</div>
+    <div name="wrapper"> i am div</div>
+    <div name="main-box">i am div</div>
+    <div name="footer">i am div</div>
+</body>
+</html>

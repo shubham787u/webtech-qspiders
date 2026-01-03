@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body{
+        background-color: rgb(247, 218, 233);
+      }
+    </style>
   </head>
   <body>
+    <center ><h2>Student Registration Form</h2></center>
     <form>
       <table border="0">
         <tr>
@@ -42,30 +48,89 @@
         <tr>
           <td><label for="DOB">Date of birth :</label></td>
           <td>
-            <input type="text" placeholder="Day" />
+            <input type="text" placeholder="Day" style="width:10%;" />
             <span>-</span>
-            <input type="text" placeholder="Month" />
+            <input type="text" placeholder="Month" style="width:10%;" />
             <span>-</span>
-            <input type="text" placeholder="Year" />
+            <input type="text" placeholder="Year" style="width:27%;"/>
             <em>(DD/MM/YYYY)</em>
           </td>
         </tr>
         <tr>
             <td><label for="mobileNo" >Mobile no. :</label></td>
-            <td><input type="number"  id="mobileNo"  placeholder="+91" />
+            <td><input type="number"  id="mobileNo"  placeholder="+91" style="width:13%;"/>
             <span>-</span>
-        <input type="tel"/>
+        <input type="tel" style="width: 37%;"/>
     </td>
     </tr>
     
-     <tr>
+    <tr>
           <td><label for="emailid">Email id :</label></td>
           <td>
             <input type="email" name="emailid" id="emailid" style="width: 98%" />
           </td>
-        </tr>
+    </tr>
+    <tr>
+      <td><label for="Password">Password :</label></td>
+      <td><input type="password" name="password" id="password" style="width: 98%;"></td>
+    </tr> 
+    <tr> 
+      <td><label for="gender">Gender :</label></td>
 
+      <td><input type="radio" id="male" name="gender" value="male">
+      <span></span>
+      <label for="male">Male</label>
+      <input type="radio" id="femele" name="gender" value="female">
+      <span></span>
+      <label for="female">Female</label>
+      </td>
 
+    </tr>
+    <tr>
+      <td><label for="department">Department :</label></td>
+      <td>
+      <input type="checkbox" id="cse" name="department">
+      <label for="cse">CSE</label>
+      <input type="checkbox" id="it" name="department">
+      <lable for="it">TI</lable>
+      <input type="checkbox" id="ece" name="department">
+      <label for="ece">ECE</label>
+      <input type="checkbox" id="civil" name="department">
+      <label for="civil">Civil</label>
+      <input type="checkbox" id="mech" name="department">
+      <label for="mech">Mech</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="course">Course :</label></td>
+      <td>
+        <select>
+          <option>--------------Select Current Course's------------</option>
+          <option value="sce">CSE</option>
+          <option value="it">IT</option>
+          <option value="ece">ECE</option>
+          <option value="civil">Civil</option>
+          <option value="mech">Mech</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label>Student photo :</label></td>
+      <td><input type="file"></td>
+    </tr>
+    <tr>
+      <td><label for="city">City :</label></td>
+      <td><input type="search" style="width: 100%;"></td>
+    </tr>
+    <tr>
+      <td><label for="address">Address :</label></td>
+      <td><input type="text" style="width:95%; height:3rem;"></td>
+    </tr>
+    
+    <tr>
+      <td><button type="submit">Register</button></td>
+    </tr>
+    
       </table>
     </form>
   </body>
