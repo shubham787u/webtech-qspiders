@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    h1{
+        background-color: yellow;
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+        transition: 2s;
+    }
+    /* mobile S */
+    @media (min-width:320px){
+        h1{
+            background-color: blue;
+        }
+    }
+
+
+    /* mobile M */
+    @media (min-width: 375px) {
+        h1 {
+            background-color: lightskyblue;
+        }
+        
+    }
+     /* mobile L */
+    @media (min-width: 425px) {
+        h1 {
+            background-color: royalblue;
+            color: white;
+            font-size: 14px;
+        }
+        
+    }
+
+      /* Tablet */
+    @media (min-width: 768px) {
+        h1 {
+            background-color: pink;
+            color: white;
+            font-size: 16px;
+        }
+        
+    }
+
+       /* Laptop */
+    @media (min-width: 1024px) {
+        h1 {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        
+    }
+        /* Laptop L */
+    @media (min-width: 1440px) {
+        h1 {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        
+    }
+    .container {
+        min-height: 80vh;
+        width: 100%;
+        background-color: gainsboro;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .items {
+        border: 1px solid black;
+        height: 300px;
+        width: 100%;
+        background-color: white;
+    }
+    </style>
+</head>
+<body>
+    <h1>Learn Media Query - Responsive Website</h1>
+
+    <section class="containner">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+        <div class="items">7</div>
+        <div class="items">8</div>
+        <div class="items">9</div>
+        <div class="items">10</div>
+        <div class="items">11</div>
+        <div class="items">12</div>
+        <div class="items">13</div>
+        <div class="items">14</div>
+       
+      
+
+       
+    </section>
+</body>
+</html>

@@ -1,0 +1,54 @@
+[
+  {
+    "_id": { "$oid": "66a2354679c0c8f6a2470f93" },
+    "deptNo": 10,
+    "dName": "accounting",
+    "loc": "new york",
+    "budget": 150000,
+    "established": { "$date": "1975-01-15T00:00:00.000Z" },
+    "floor": 5,
+    "employeeCount": 3,
+    "isActive": true,
+    "facilities": ["conference_room", "printer", "coffee_machine"],
+    "headOfDept": 7782
+  },
+  {
+    "_id": { "$oid": "66a2354679c0c8f6a2470f94" },
+    "deptNo": 20,
+    "dName": "research",
+    "loc": "dallas",
+    "budget": 200000,
+    "established": { "$date": "1973-05-20T00:00:00.000Z" },
+    "floor": 3,
+    "employeeCount": 5,
+    "isActive": true,
+    "facilities": ["lab", "conference_room", "library"],
+    "headOfDept": 7566
+  },
+  {
+    "_id": { "$oid": "66a2354679c0c8f6a2470f95" },
+    "deptNo": 30,
+    "dName": "sales",
+    "loc": "chicago",
+    "budget": 180000,
+    "established": { "$date": "1974-08-10T00:00:00.000Z" },
+    "floor": 2,
+    "employeeCount": 6,
+    "isActive": true,
+    "facilities": ["meeting_room", "call_center"],
+    "headOfDept": 7698
+  },
+  {
+    "_id": { "$oid": "66a2354679c0c8f6a2470f96" },
+    "deptNo": 40,
+    "dName": "operation",
+    "loc": "boston",
+    "budget": 120000,
+    "established": { "$date": "1976-03-25T00:00:00.000Z" },
+    "floor": 1,
+    "employeeCount": 0,
+    "isActive": false,
+    "facilities": ["storage", "loading_dock"],
+    "headOfDept": null
+  }
+]

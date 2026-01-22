@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .grid_container{
+            height: 100vh;
+            width: 100%;
+            background-color: yellow;
+            display: grid;
+            grid-template-rows:1fr 1fr 1fr 1fr;
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            align-items: center;
+            /* row-gap: 20px; */
+            /* column-gap: 30px; */
+            gap: 30px 50px;
+        }
+        .grid-item {
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+        }
+        .item1 {
+            justify-self: center;
+            align-self: end;
+        }
+        .item4 {
+            justify-self: start;
+            align-self: end;
+        }
+    </style>
+</head>
+<body>
+    <Main class="grid_container">
+    <div class="grid-item item1">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item item4">4</div>
+
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
+
+    </Main>
+</body>
+</html>
