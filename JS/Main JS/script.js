@@ -744,17 +744,16 @@
 //   },
 
 // };
-// console.log();
 // student.getFullName();
 // student.getEmail();
 
 
-//! call() , apply() nad Bind()  ====
+// //! call() , apply() nad Bind()  ====
 function getFullName(){
   return `${this.firstName} ${this.lastName}`
 }
 function getCourseDetails(sub1,sub2) {
-  return `${this.course} include ${sub1} ${sub2}`;
+  return `${this.course} with ${sub1} ${sub2}`;
 }
 
 let  user1 = {
@@ -774,24 +773,28 @@ let user2 ={
 console.log(user1);
 console.log(user2);
 
-//call()
-let fullName1 = getFullName.call(user1)
-console.log(fullName1);
+// //call()
+// let fullName1 = getFullName.call(user1)
+// console.log(fullName1);
 
-let courseDetails1 = getCourseDetails.call(user1, "JS", "NOdeJS");
-console.log(courseDetails1);
+// let courseDetails1 = getCourseDetails.call(user1,"JS", "NodeJS");
+// console.log(courseDetails1);
 
-//apply()--Immediately call the function
-let fullName2 = getFullName.apply(user2);
-console.log(fullName2);
 
-let courseDetails2 = getCourseDetails.apply(user2, ["Java", "SprinBoot"]);
-console.log(courseDetails2);
+// //apply()--Immediately call the function
+// let fullName2 = getFullName.apply(user2);
+// console.log(fullName2);
+
+// let courseDetails2 = getCourseDetails.apply(user2, ["Java", "SpringBoot"]);
+// console.log(courseDetails2);
 
 //bind()--return bounded function which can be called later on,
-let boundedGetFullName = getFullName.bind(user1)
-//console.log("Function Bounded");
-console.log(boundedGetFullName());
+// let boundedGetFullName = getFullName.bind(user1)
+// console.log("Function Bounded");
+// console.log(boundedGetFullName());
 
-let boundedCourseDetails = getCourseDetails.bind(user1);
-console.log(boundedCourseDetails("HTML", "MongoDB"));
+// let boundedCourseDetails = getCourseDetails.bind(user1);
+// console.log(boundedCourseDetails("HTML","MongoDB"));
+
+//==============23/01/2026====================
+
